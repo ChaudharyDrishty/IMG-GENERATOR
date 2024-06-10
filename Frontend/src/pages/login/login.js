@@ -14,7 +14,7 @@ const Login = () => {
       return;
     }
     try {
-      const res = await fetch(`http://localhost:8000/api/v1/auth/login`, {
+      const res = await fetch(`https://img-generator-9f9l.onrender.com/api/v1/auth/login`, {
         headers: {
           "Content-Type": "application/json",
         },
