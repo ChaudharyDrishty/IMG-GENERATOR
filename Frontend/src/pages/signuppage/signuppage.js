@@ -12,7 +12,7 @@ const Signup = () => {
       return;
     }
 
-    const res = await fetch('http://localhost:8000/api/v1/auth/signup', {
+    const res = await fetch('https://img-generator-9f9l.onrender.com/api/v1/auth/signup', {
       headers: {
         "Content-Type": "application/json",
       },
